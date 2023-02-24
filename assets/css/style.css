@@ -151,7 +151,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: black;
 }
 
 #header .logo a span {
@@ -218,7 +218,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -234,7 +234,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  /* color: #ffc451; */
 }
 
 .navbar .dropdown ul {
@@ -416,14 +416,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg1.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -456,18 +456,27 @@ h6 {
   font-size: 24px;
 }
 
+.icon-box-container {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
   text-align: center;
+  border: 2px solid red;
+  width: 40%;
 }
 
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
   color: #ffc451;
+  
 }
 
 #hero .icon-box h3 {
@@ -631,13 +640,14 @@ section {
 }
 
 .features .icon-box {
-  padding-left: 15px;
+  border: 2px solid purple;
+  text-align: center;
 }
 
 .features .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
-  margin: 5px 0 10px 60px;
+  /* margin: 5px 0 10px 60px; */
 }
 
 .features .icon-box i {
@@ -649,7 +659,7 @@ section {
 .features .icon-box p {
   font-size: 15px;
   color: #848484;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 
 .features .image {
@@ -657,6 +667,22 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
+}
+
+.features > .container {
+  border: 2px solid red;
+}
+
+.features > .container .features-container {
+  border: 2px solid blue;
+  margin: auto 0;
+}
+
+.hours-container {
+  border: 2px solid red;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-bottom: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -1137,6 +1163,11 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+.stylist-container {
+  border: 2px solid red;
+}
+
 .team {
   background: #fff;
   padding: 60px 0;
