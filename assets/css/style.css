@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 * {
-  border: none !important;
+  /* border: none !important; */
 }
 
 body {
@@ -459,7 +459,7 @@ h6 {
 }
 
 .icon-box-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
 }
@@ -511,7 +511,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: auto;
+    /* height: auto; */
   }
 
   #hero h1 {
@@ -525,7 +525,7 @@ h6 {
   }
 
   .services-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column !important;
   }
@@ -648,7 +648,8 @@ section {
 }
 
 .features .icon-box {
-  border: 2px solid purple;
+  /* border: 2px solid gray; */
+  border-radius: 4px;
   text-align: center;
 }
 
@@ -679,17 +680,17 @@ section {
 }
 
 .features > .container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .features > .container .features-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue;  */
   text-align: center;
   margin-top: 20px;
 }
 
 .hours-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: center;
   font-size: 1.8rem;
   padding-bottom: 16px;
@@ -753,13 +754,13 @@ section {
 }
 
 .services-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-evenly;
 }
 
 .individual-services-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   box-shadow: 5px 5px 5px grey;
 }
 
@@ -769,7 +770,7 @@ section {
     text-align: center;
   }
   .services-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column !important;
   }
@@ -1301,7 +1302,7 @@ section {
 }
 
 .contact-info-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-top: 40px;
   /* display: flex; */
   /* align-items: center; */
@@ -1333,7 +1334,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #484848;
+  color: #484848 !important;
 }
 
 .contact .info .email,
@@ -1348,6 +1349,7 @@ section {
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
+  /* border: 2px solid red; */
 }
 
 .contact .php-email-form .error-message {
