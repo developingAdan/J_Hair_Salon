@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 * {
-  /* border: none !important; */
+  outline: none !important;
 }
 
 body {
@@ -1296,14 +1296,48 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact {
+  outline: 2px solid red;
+}
+
+.contact .container {
+  outline: 2px solid blue;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin: auto 0; */
+}
+
+.contact .section-title {
+  outline: 2px solid green;
+}
+
+.contact .formDiv {
+  outline: 2px solid orange;
+  /* width: 60%; */
+}
+
+.contact .formDiv > div {
+  outline: 2px solid cyan;
+  margin: 0 auto;
+}
+
+
+.formDiv {
+  outline: 2px solid purple;
+}
+
+
+
+/* this below is not being used  */
 .contact .info {
-  width: 100%;
+  /* width: 100%; */
   background: #fff;
 }
 
 .contact-info-container {
   /* border: 2px solid red; */
-  padding-top: 40px;
+  /* padding-top: 40px; */
   /* display: flex; */
   /* align-items: center; */
 }
